@@ -58,8 +58,7 @@ function keres(mit) {
 }
 
 function kezdo() {
-	const meret = parseInt(document.getElementById("#meret").value);
-    for (let i = 0; i < meret*meret*meret; i++) {
+    for (let i = 0; i < 2; i++) {
         osszekever();
     }
 }
